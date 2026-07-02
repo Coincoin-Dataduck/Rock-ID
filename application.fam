@@ -1,0 +1,13 @@
+App(
+    appid="rock_id",
+    name="Rock ID",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="rock_id_app",
+    stack_size=4 * 1024,
+    fap_category="Tools",
+    fap_icon="rock_id.png",
+    fap_version="1.0",
+    fap_description="Field key to identify common rocks, with a pocket encyclopedia.",
+    fap_author="Vibe coded with Claude by Coincoin-Dataduck",
+    fap_weburl="https://github.com/Coincoin-Dataduck/rock_id",
+)
